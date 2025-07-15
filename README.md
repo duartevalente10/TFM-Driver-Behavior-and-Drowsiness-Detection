@@ -1,4 +1,4 @@
-# Driver Behavior and Drowsiness Detection
+# Master's Dissertation - Driver Behavior and Drowsiness Detection
 
 This repository contains the code and machine learning pipelines developed as part of my Master's Thesis at ISEL - Instituto Superior de Engenharia de Lisboa. The project addresses two major causes of road accidents: **aggressive driving** and **driver drowsiness**.
 

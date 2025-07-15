@@ -1,0 +1,28 @@
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Events and datasets
+# *.csv
+trips/**/*.json
+trips/**/*.csv
+
+datasets/constructed
+datasets/categorical_data
+datasets/missing_values
+datasets/normalization
+
+
+# Private files
+private/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.idea
+.vscode

@@ -1,0 +1,50 @@
+
+Kmeans:
+
+	Análise PCA:
+		- Most important feature for component 0: ['speed', 'n_tsr_level', 'n_brakes', 'n_hc', 'n_ha']
+
+		As figuras clusters_speed_ntsrlevel e clusters_speed_nbrakes permitem descrever os clusters da seguinte forma:
+			Cluster 0: Cluster com velocidade media baixa e baixo numero de eventos de ultrapassagem do limite de velocidade.
+			Cluster 1: Cluster com baixo até alto velocidade media e baixo até medio numero de eventos de ultrapassagem do limite de velocidade.
+
+	
+	Análise decision tree | random forest:
+		- Decision tree - Top features: 'speed', 'n_brakes', 'n_tsr_level'
+		- Random forest - Top features: 'speed', 'n_fatigue_0', 'n_overtaking_0'
+
+		É possível verificar que para o PCA, decision tree e random forest as features mais importantes são SPEED, N_TSR_LEVEL e N_BRAKES
+
+		Pela a análise da árvore de decisão o speed é a variável mais importante.
+			- Se speed <= 10.733 estamos perante o cluster 0
+			- Se speed > 10.733 estamos perante o cluster 1
+
+			- A variavel n_tsr_level também tem grande influencia no resultado. Se esta for muito alta (+- superior a 30) estamos perante o cluster 1.
+			Se for inferior estamos perante o cluster 0.
+
+			- A variavel n_brakes também tem grande influencia no resultado. Se esta for muito alta (+- superior a 5.5) estamos perante o cluster 1.
+			Se for inferior estamos perante o cluster 0.
+
+		A decision tree permite descrever os clusters da seguinte forma:
+			Cluster 0: Cluster com velocidade media baixa e baixo/medio numero de eventos de ultrapassagem do limite de velocidade.
+			Cluster 1: Cluster com baixo até alto velocidade media e alto numero de eventos de ultrapassagem do limite de velocidade.
+
+	
+	Análise estatistica:
+
+		- Ao olhar para a tabela de valores medios, percebe-se que o speed no cluster 1 é relativamente mais alto ao speed no cluster 0.
+		- O cluster 1 tem em média cerca de 4.3 eventos de ultrapassagem do limite de velocidade por cada km percorrido.
+		- O cluster 0 tem em média cerca de 2.8 eventos de ultrapassagem do limite de velocidade por cada km percorrido.
+		- Em grande parte das features estamos a falar de viagens (do cluster 1) em que o numero de eventos/km é superior ao cluster 0.
+
+
+Conclusão:
+	- O cluster 1 corresponde a viagens mais agressivas quando comparado com o cluster 0. Claramente o cluster 1 corresponde a viagens agressivas
+	muito devido aos valores do speed e n_tsr_level. 
+	- No entanto, não existe maneira de dizer que é preciso ter um certo número de eventos de ultrapassagem do limite de velocidade 
+	(por ex) para considerar a viagem como agressiva ou não agressiva. Deste modo, esta seleção tem que ser feita de acordo com as caracteristicas do
+	conjunto de dados em questão. Então, de acordo com este conjunto de dados, as viagens do cluster 1 são consideradas agressivas quando comparadas
+	com as viagens do cluster 0.
+	- Cluster 1 -> Trip profile = Agressive
+	- Cluster 0 -> Trip profile = Non–aggressive
+	

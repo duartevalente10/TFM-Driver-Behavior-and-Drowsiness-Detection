@@ -1,0 +1,100 @@
+N instances belonging to cluster 0: 150 
+N instances belonging to cluster 1: 14852 
+Calinski score: 1950.745739743574 
+Davies-Bouldin score: 0.781717609896352 
+Silhouette score: 0.6967304552499147 
+ 
+N instances belonging to cluster 0: 16 
+N instances belonging to cluster 1: 14986 
+Calinski score: 1248.8810515341677 
+Davies-Bouldin score: 0.2753528422467425 
+Silhouette score: 0.8661375265657463 
+ 
+N instances belonging to cluster 0: 12264 
+N instances belonging to cluster 1: 2738 
+Calinski score: 6014.950216394963 
+Davies-Bouldin score: 1.3029219878340201 
+Silhouette score: 0.48892681245412906 
+ 
+N instances belonging to cluster 0: 95 
+N instances belonging to cluster 1: 13111 
+Calinski score: 422.60003250457686 
+Davies-Bouldin score: 0.933487510680696 
+Silhouette score: 0.5605264831963674 
+ 
+N instances belonging to cluster 0: 97 
+N instances belonging to cluster 1: 13109 
+Calinski score: 428.4170411992449 
+Davies-Bouldin score: 0.9349325769566947 
+Silhouette score: 0.5595048924016454 
+ 
+N instances belonging to cluster 0: 95 
+N instances belonging to cluster 1: 13111 
+Calinski score: 422.86745359017647 
+Davies-Bouldin score: 0.9332242508903765 
+Silhouette score: 0.5608007429679165 
+ 
+N instances belonging to cluster 0: 92 
+N instances belonging to cluster 1: 13114 
+Calinski score: 423.5245341823949 
+Davies-Bouldin score: 0.9209361801160811 
+Silhouette score: 0.5659876693960787 
+ 
+N instances belonging to cluster 0: 92 
+N instances belonging to cluster 1: 1658 
+N instances belonging to cluster 2: 6601 
+N instances belonging to cluster 3: 4855 
+Calinski score: 11049.429581940714 
+Davies-Bouldin score: 0.8365175955605871 
+Silhouette score: 0.39885338944185406 
+ 
+N instances belonging to cluster 0: 6 
+N instances belonging to cluster 1: 13200 
+Calinski score: 320.30120533806314 
+Davies-Bouldin score: 0.29123947382534976 
+Silhouette score: 0.8380302715039457 
+ 
+N instances belonging to cluster 0: 6 
+N instances belonging to cluster 1: 13200 
+Calinski score: 320.3012053380631 
+Davies-Bouldin score: 0.29123947382534887 
+Silhouette score: 0.8380302715039457 
+ 
+N instances belonging to cluster 0: 95 
+N instances belonging to cluster 1: 13111 
+Calinski score: 422.6000325045769 
+Davies-Bouldin score: 0.933487510680696 
+Silhouette score: 0.5605264831963672 
+ 
+N instances belonging to cluster 0: 96 
+N instances belonging to cluster 1: 8798 
+N instances belonging to cluster 2: 2582 
+N instances belonging to cluster 3: 1730 
+Calinski score: 11480.770736665452 
+Davies-Bouldin score: 0.8215902963421668 
+Silhouette score: 0.45758934797315143 
+ 
+N instances belonging to cluster 0: 120 
+N instances belonging to cluster 1: 13086 
+Calinski score: 1366.236101613348 
+Davies-Bouldin score: 0.8013470268689598 
+Silhouette score: 0.6783391737588098 
+ 
+N instances belonging to cluster 0: 4749 
+N instances belonging to cluster 1: 1 
+Calinski score: 2673.3328439742018 
+Davies-Bouldin score: 0.012212299445063924 
+Silhouette score: 0.9823843606453929 
+ 
+N instances belonging to cluster 0: 4638 
+N instances belonging to cluster 1: 132 
+Calinski score: 9135.872152343825 
+Davies-Bouldin score: 0.5037136922909217 
+Silhouette score: 0.9371401148242076 
+ 
+N instances belonging to cluster 0: 11 
+N instances belonging to cluster 1: 4759 
+Calinski score: 3447.858397924081 
+Davies-Bouldin score: 0.28289929173498013 
+Silhouette score: 0.9690119656432008 
+ 

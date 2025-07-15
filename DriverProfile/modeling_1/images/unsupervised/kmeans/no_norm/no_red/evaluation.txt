@@ -1,0 +1,41 @@
+------------ EUCLIDEAN DISTANCE ------------ BEST
+N instances belonging to cluster 0: 13595 
+N instances belonging to cluster 1: 1407 
+Calinski score: 6023.66409688871 
+Davies-Bouldin score: 1.0819741001721164 
+Silhouette score: 0.6824559967113923 
+ 
+------------ EUCLIDEAN_SQUARE DISTANCE ------------ 
+N instances belonging to cluster 0: 13595 
+N instances belonging to cluster 1: 1407 
+Calinski score: 6023.66409688871 
+Davies-Bouldin score: 1.0819741001721164 
+Silhouette score: 0.6824559967113923 
+ 
+------------ MANHATTAN DISTANCE ------------ 
+N instances belonging to cluster 0: 784 
+N instances belonging to cluster 1: 14218 
+Calinski score: 4988.784615742137 
+Davies-Bouldin score: 1.0208695169649311 
+Silhouette score: 0.7195921462382102 
+ 
+------------ CHEBYSHEV DISTANCE ------------ 
+N instances belonging to cluster 0: 13226 
+N instances belonging to cluster 1: 1776 
+Calinski score: 5708.010894580278 
+Davies-Bouldin score: 1.1253562870248088 
+Silhouette score: 0.6466164778521927 
+ 
+------------ CANBERRA DISTANCE ------------ 
+N instances belonging to cluster 0: 7766 
+N instances belonging to cluster 1: 7236 
+Calinski score: 2642.2823012221365 
+Davies-Bouldin score: 1.3365350230302573 
+Silhouette score: 0.2614242214506229 
+ 
+------------ CHI_SQUARE DISTANCE ------------ 
+N instances belonging to cluster 0: 15002 
+Calinski score: Only one cluster found 
+Davies-Bouldin score: Only one cluster found 
+Silhouette score: Only one cluster found 
+ 

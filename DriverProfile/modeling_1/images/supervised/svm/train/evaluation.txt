@@ -1,0 +1,12 @@
+fit_time mean: 204.78799872398378 with a standard deviation: 70.88913218038566 
+score_time mean: 0.07751972675323486 with a standard deviation: 0.04758702173598999 
+test_accuracy mean: 0.9980834721065779 with a standard deviation: 0.0011211663589266224 
+train_accuracy mean: 0.9995370773282308 with a standard deviation: 0.0002449523483258355 
+test_precision mean: 0.9931786650197889 with a standard deviation: 0.00533291153119984 
+train_precision mean: 0.9980243659667547 with a standard deviation: 0.0010828108763827858 
+test_recall mean: 0.9975708502024292 with a standard deviation: 0.002685526146036763 
+train_recall mean: 0.9997299729972997 with a standard deviation: 0.0004589576519885501 
+test_f1 mean: 0.9953591572219007 with a standard deviation: 0.002700593062410757 
+train_f1 mean: 0.9988761009662863 with a standard deviation: 0.0005942690112723878 
+test_AUC mean: 0.9999677129048582 with a standard deviation: 4.223504288278733e-05 
+train_AUC mean: 0.9999953573759075 with a standard deviation: 3.831376285822575e-06 

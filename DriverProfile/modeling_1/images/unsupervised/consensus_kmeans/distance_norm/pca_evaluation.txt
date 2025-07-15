@@ -1,0 +1,61 @@
+N instances belonging to cluster 0: 54 
+N instances belonging to cluster 1: 14948 
+Calinski score: 1965.6907577993163 
+Davies-Bouldin score: 0.48215816781489446 
+Silhouette score: 0.8065415815589033 
+
+BEST
+N instances belonging to cluster 0: 25 
+N instances belonging to cluster 1: 14977 
+Calinski score: 1554.4800881434403 
+Davies-Bouldin score: 0.33593059896591326 
+Silhouette score: 0.8501571397360004  
+ 
+N instances belonging to cluster 0: 11918 
+N instances belonging to cluster 1: 3084 
+Calinski score: 6470.629048786918 
+Davies-Bouldin score: 1.2547049294000399 
+Silhouette score: 0.4812454344713492 
+ 
+
+N instances belonging to cluster 0: 153
+N instances belonging to cluster 1: 14849
+Calinski score: 1953.531855697017
+Davies-Bouldin score: 0.7864541319941265
+Silhouette score: 0.6944089814307987
+
+N instances belonging to cluster 0: 16
+N instances belonging to cluster 1: 14986
+Calinski score: 1261.138787110336        
+Davies-Bouldin score: 0.27418813092839395
+Silhouette score: 0.8669794264146172
+
+N instances belonging to cluster 0: 12240
+N instances belonging to cluster 1: 2762
+Calinski score: 6118.61531492413
+Davies-Bouldin score: 1.2915832710016766
+Silhouette score: 0.4906354982872983
+
+N instances belonging to cluster 0: 54
+N instances belonging to cluster 1: 14948
+Calinski score: 1965.6907577993163
+Davies-Bouldin score: 0.48215816781489446
+Silhouette score: 0.8065415815589033
+
+N instances belonging to cluster 0: 54
+N instances belonging to cluster 1: 14948
+Calinski score: 1965.6907577993163       
+Davies-Bouldin score: 0.48215816781489446
+Silhouette score: 0.8065415815589033
+
+N instances belonging to cluster 0: 160
+N instances belonging to cluster 1: 14842
+Calinski score: 1952.8473354027087       
+Davies-Bouldin score: 0.8011788074192093 
+Silhouette score: 0.6889018746013612 
+
+N instances belonging to cluster 0: 16
+N instances belonging to cluster 1: 14986
+Calinski score: 1261.138787110336
+Davies-Bouldin score: 0.27418813092839395
+Silhouette score: 0.8669794264146172

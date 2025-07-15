@@ -1,0 +1,42 @@
+
+Kmeans:
+
+	Análise PCA:
+		- Most important feature for component 0: ['speed', 'n_tsr_level', 'n_brakes', 'n_hc', 'n_ha']
+
+		As figuras clusters_speed_ntsrlevel e clusters_speed_nbrakes permitem descrever os clusters da seguinte forma:
+			Cluster 0 (roxo): Cluster com velocidade media ao longo do espetro entre 10 a 70 e 
+            com numero de eventos de ultrapassagem do limite de velocidade alto mas mais baixo que o cluster 1.
+			Cluster 1 (amarelo): Cluster velocidade media mais baixa que o cluster 0 mas o 
+            numero de eventos de ultrapassagem do limite de velocidade é muito alto.
+
+	
+	Análise decision tree | random forest:
+		- Decision tree - Top features: 'n_tsr_level_2', 'n_tsr_level_5', 'n_speeding_3'
+		- Random forest - Top features: 'n_tsr_level_2', 'n_tsr_level_1', 'n_tsr_level'
+
+		É possível verificar que para o PCA, decision tree e random forest as features mais importantes são SPEED, N_TSR_LEVEL e N_TSR_LEVEL_2
+
+		Pela a análise da árvore de decisão o n_tsr_level_2 é a variável mais importante.
+			- Se n_tsr_level_2 <= 11.349 estamos perante o cluster 0
+			- Se n_tsr_level_2 > 11.349 estamos perante o cluster 1
+
+		A decision tree permite descrever os clusters da seguinte forma:
+			Cluster 0: Cluster com medio numero de eventos de ultrapassagem do limite de velocidade.
+			Cluster 1: Cluster com alto numero de eventos de ultrapassagem do limite de velocidade.
+
+	
+	Análise estatistica:
+
+		
+
+
+Conclusão:
+	- O cluster 1 corresponde a viagens mais risky quando comparado com o cluster 0. 
+    Claramente o cluster 1 corresponde a viagens risky muito devido ao alto valor de n_tsr_level_2 e maix baixo
+    valor de speed. 
+	- De acordo com este conjunto de dados, as viagens do cluster 1 são consideradas riscky quando comparadas
+	com as viagens do cluster 0.
+	- Cluster 1 -> Trip profile = Risky
+	- Cluster 0 -> Trip profile = Aggressive
+	

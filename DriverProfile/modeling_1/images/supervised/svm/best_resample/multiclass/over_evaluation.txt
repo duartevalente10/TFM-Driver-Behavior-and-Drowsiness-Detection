@@ -1,0 +1,7 @@
+fit_time mean: 3.419922399520874 with a standard deviation: 0.78029015260706 
+score_time mean: 0.042616844177246094 with a standard deviation: 0.013481610209139142 
+test_accuracy mean: 0.9966669442131557 with a standard deviation: 0.001707825330634012 
+test_precision mean: 0.9967609486942735 with a standard deviation: 0.0016136627203572715 
+test_recall mean: 0.9966669442131557 with a standard deviation: 0.001707825330634012 
+test_f1 mean: 0.9966839670028562 with a standard deviation: 0.0016908676035102454 
+test_AUC mean: 0.9999718026532365 with a standard deviation: 4.356919925473717e-05 

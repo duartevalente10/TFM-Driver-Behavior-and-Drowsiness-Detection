@@ -1,0 +1,106 @@
+                ('clf', SVC(C=100, kernel='linear', probability=True))])
+# ----------------------------- TEST MODEL svm ----------------------------- # 
+
+[0.99979086 0.99996009 1.        ]
+# ---------------------- NESTED CROSS VALIDATION decision_tree ---------------------- # 
+
+# -------------------- TRAIN MODEL WITH BEST PARAMS decision_tree -------------------- #
+
+Train set - Accuracy: [0.95368905 0.95812384 0.96115141 0.96180878 0.95223548 0.95817939
+ 0.96162352 0.96376229 0.95215217 0.95829972]
+Test set - Accuracy: [0.95325437 0.9575043  0.95992034 0.96092    0.9518377  0.95725423
+ 0.96142076 0.96200347 0.9515877  0.95767111]
+
+Train set - Precision: [0.96103083 0.96403095 0.9662747  0.96669578 0.96011516 0.96405173
+ 0.96657944 0.96804523 0.95999017 0.96411901]
+Test set - Precision: [0.96077896 0.96350287 0.96530639 0.96594296 0.95980496 0.96328954
+ 0.96639872 0.96669455 0.95961082 0.96354042]
+
+Train set - Recall: [0.95368905 0.95812384 0.96115141 0.96180878 0.95223548 0.95817939
+ 0.96162352 0.96376229 0.95215217 0.95829972]
+_split': 0.2, 'over__n_neighbors': 8}
+Best estimator: Pipeline(steps=[('norm',
+                 FunctionTransformer(func=<function normalize_by_distance at 0x000001A7BFBEEC10>)),
+                ('over', ADASYN(n_neighbors=8)),
+                ('red', PCA(n_components=0.99)),
+                ('clf',
+                 DecisionTreeClassifier(criterion='entropy', max_depth=10,
+                                        min_samples_leaf=0.15,
+                                        min_samples_split=0.2))])
+# ----------------------------- TEST MODEL decision_tree ----------------------------- #
+
+[0.99505057 0.9958831  0.99943752]
+# ---------------------- NESTED CROSS VALIDATION random_forest ---------------------- #
+
+# -------------------- TRAIN MODEL WITH BEST PARAMS random_forest -------------------- #
+
+Train set - Accuracy: [0.96893779 0.96991919 0.97178011 0.97247452 0.96959516 0.97090985
+ 0.97159496 0.97203939 0.9700025  0.97075244]
+Test set - Accuracy: [0.96583611 0.96700284 0.96891972 0.96950291 0.96575291 0.96783618  
+ 0.96825264 0.96916937 0.96666944 0.96783611]
+
+Train set - Precision: [0.97281493 0.97356972 0.97496888 0.97538176 0.97329492 0.97429708
+ 0.97476669 0.97507112 0.97359981 0.97415401]
+Test set - Precision: [0.97006772 0.97087362 0.97245764 0.97288217 0.96993365 0.9716269  
+ 0.97183163 0.97248853 0.97071742 0.97155178]
+
+Train set - Recall: [0.96893779 0.96991919 0.97178011 0.97247452 0.96959516 0.97090985
+ 0.97159496 0.97203939 0.9700025  0.97075244]
+Test set - Recall: [0.96583611 0.96700284 0.96891972 0.96950291 0.96575291 0.96783618
+ 0.96825264 0.96916937 0.96666944 0.96783611]
+
+Train set - F1: [0.96969872 0.97063761 0.9724106  0.9730564  0.97032499 0.97157818
+ 0.97222351 0.97264352 0.97071079 0.97142326]
+Test set - F1: [0.96671338 0.96781243 0.96965856 0.97020723 0.96661803 0.9686222
+ 0.96900337 0.96987093 0.96750825 0.96861087]
+
+Best score f1_weighted: 0.9724423044346551 with best params: {'clf__criterion': 'entropy', 'clf__min_samples_split': 0.02, 'clf__n_estimators': 250, 'over__n_neighbors': 8}
+Best estimator: Pipeline(steps=[('norm',
+                 FunctionTransformer(func=<function normalize_by_distance at 0x000001A7BFBEEC10>)),
+                ('over', ADASYN(n_neighbors=8)),
+                ('red', PCA(n_components=0.99)),
+                ('clf',
+                 RandomForestClassifier(criterion='entropy',
+                                        min_samples_split=0.02,
+                                        n_estimators=250))])
+# ----------------------------- TEST MODEL random_forest ----------------------------- #
+
+[0.99939567 0.99940543 0.99978717]
+# ---------------------- NESTED CROSS VALIDATION xgboost ---------------------- #
+
+# -------------------- TRAIN MODEL WITH BEST PARAMS xgboost -------------------- #
+
+Train set - Accuracy: [0.97243749 0.97195605 0.97446511 0.98347361 0.98515865 0.98713071
+ 0.99231547 0.99618551 0.99811128 0.99832422]
+Test set - Accuracy: [0.96325319 0.96183646 0.96500298 0.96708597 0.96766958 0.9686693
+ 0.98091805 0.98458437 0.98500118 0.98266792]
+
+Train set - Precision: [0.97577537 0.97541448 0.97737443 0.98480747 0.98623609 0.98796001
+ 0.99263072 0.99627963 0.99814463 0.99835842]
+Test set - Precision: [0.96892706 0.96782984 0.97015091 0.97184743 0.97217936 0.9727972
+ 0.98263497 0.98577096 0.98597081 0.98398722]
+
+Train set - Recall: [0.97243749 0.97195605 0.97446511 0.98347361 0.98515865 0.98713071
+ 0.99231547 0.99618551 0.99811128 0.99832422]
+Test set - Recall: [0.96325319 0.96183646 0.96500298 0.96708597 0.96766958 0.9686693
+ 0.98091805 0.98458437 0.98500118 0.98266792]
+
+Train set - F1: [0.97308355 0.97262662 0.97502734 0.98372848 0.98536332 0.98728778
+ 0.99237534 0.9962038  0.9981178  0.9983314 ]
+Test set - F1: [0.96434599 0.96298747 0.96598736 0.96799306 0.96852637 0.96943779
+ 0.98125684 0.984813   0.98519536 0.98293154]
+
+Best score f1_weighted: 0.9927948123563702 with best params: {'clf__colsample_bytree': 0.7, 'clf__learning_rate': 0.1, 'clf__max_depth': 6, 'clf__n_estimators': 
+                               colsample_bylevel=1, colsample_bynode=1,
+                               colsample_bytree=0.7, early_stopping_rounds=None,
+                               enable_categorical=False, eval_metric=None,
+                               g...d=-1, grow_policy='depthwise',
+                               importance_type=None, interaction_constraints='',
+                               learning_rate=0.1, max_bin=256,
+                               max_cat_to_onehot=4, max_delta_step=0,
+                               max_depth=6, max_leaves=0, min_child_weight=1,
+                               missing=nan, monotone_constraints='()',
+                               n_estimators=200, n_jobs=0, num_parallel_tree=1,
+                               objective='multi:softprob', predictor='auto',
+                               random_state=0, reg_alpha=0, ...))])
+# ----------------------------- TEST MODEL xgboost ----------------------------- #

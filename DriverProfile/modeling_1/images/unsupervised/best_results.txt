@@ -1,0 +1,52 @@
+Notes: Both on gaussian mixture and kmeans no_norm produces better results but it does not provide a good way to differentiate trips because they are dependent
+on the distance and duration. Because of that the distance normalization is better for this problem.
+
+
+KMEANS - DISTANCE - PCA
+------------ EUCLIDEAN_SQUARE DISTANCE ------------
+N instances belonging to cluster 0: 11916 
+N instances belonging to cluster 1: 3086 
+Calinski score: 7258.919682914287 
+Davies-Bouldin score: 1.1639218371845763 
+Silhouette score: 0.4882492593285395
+
+GAUSSIAN - DISTANCE - PCA
+------------ spherical COVARIANCE ------------
+N instances belonging to cluster 0: 5287 
+N instances belonging to cluster 1: 9715 
+Calinski score: 5602.886961663179 
+Davies-Bouldin score: 1.3771502045858075 
+Silhouette score: 0.3818383109596339
+
+DBSCAN - DISTANCE - PCA
+------------ manhattan DISTANCE ------------ 
+N instances belonging to cluster -1: 5835 
+N instances belonging to cluster 0: 9142 
+N instances belonging to cluster 1: 25 
+Calinski score: 2277.795262866757 
+Davies-Bouldin score: 1.3404378654413769 
+Silhouette score: 0.1560134773882124
+
+CONSENSUS KMEANS - DISTANCE - PCA
+-------------------------------------------
+N instances belonging to cluster 0: 54 
+N instances belonging to cluster 1: 14948 
+Calinski score: 1965.6907577993163 
+Davies-Bouldin score: 0.48215816781489446 
+Silhouette score: 0.8065415815589033 
+
+CONSENSUS KMEANS/GAUSSIAN - DISTANCE - PCA
+-------------------------------------------
+N instances belonging to cluster 0: 54 
+N instances belonging to cluster 1: 14948 
+Calinski score: 1965.6907577993163 
+Davies-Bouldin score: 0.48215816781489446 
+Silhouette score: 0.8065415815589033  
+
+CONSENSUS GAUSSIAN - DURATION - PCA
+-------------------------------------------
+N instances belonging to cluster 0: 2058 
+N instances belonging to cluster 1: 12944 
+Calinski score: 1121.9515642836202 
+Davies-Bouldin score: 1.7350437051018592 
+Silhouette score: 0.15782369515205927 
